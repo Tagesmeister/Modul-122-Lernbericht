@@ -16,7 +16,7 @@ In meinem Projekt habe ich gelernt, wie man eine JSON datei auslesen und für da
 In meinem Projekt habe ich ein Konfigruartionsdatei verwenden, um die Pfade, wenn gewollt, anpassen zu können.
 Die Konfigurationsdatei ist eine JSON-Datei.
 ![image](https://github.com/Tagesmeister/Modul-122-Lernbericht/assets/110892258/85c36268-d0d2-4b34-8dca-b0dd8784afe1)
-Um in der JSON-Datei etwas einfügen oder überschreiben zu können. In meinem Powershell-Skript gibt es die Variabel sourceDir und destinationDir. Die werden zuvor deklariert und dannach, mit dem ConverTo-Json in die JSON-sprache konventiert.
+Um in der JSON-Datei etwas einfügen oder überschreiben zu können, muss man das was man überschreiben möchte im Powershell-Skirpt erstellen. In meinem Powershell-Skript gibt es die Variabel sourceDir und destinationDir. Die werden zuvor deklariert und dannach, mit dem ConverTo-Json in die JSON-sprache konventiert. .......Und werden mit dem Set-Content in die JSON-Datei überschrieben.
 ![image](https://github.com/Tagesmeister/Modul-122-Lernbericht/assets/110892258/a4ad0ce9-ceae-4099-80ad-3b9cd583cb5e)
 
 * Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
