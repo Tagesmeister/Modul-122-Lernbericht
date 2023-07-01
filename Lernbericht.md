@@ -11,17 +11,27 @@ In meinem Projekt habe ich gelernt, wie man eine JSON datei auslesen und für da
 
 ## Beschreibung
 
-✍️ Verwenden Sie drei verschiedene Medien, um zu zeigen, was Sie gelernt haben. Zum Beispiel:
-
 In meinem Projekt habe ich ein Konfigruartionsdatei verwenden, um die Pfade, wenn gewollt, anpassen zu können.
-Die Konfigurationsdatei ist eine JSON-Datei.
-![image](https://github.com/Tagesmeister/Modul-122-Lernbericht/assets/110892258/85c36268-d0d2-4b34-8dca-b0dd8784afe1)
-Um in der JSON-Datei etwas einfügen oder überschreiben zu können, muss man das was man überschreiben möchte im Powershell-Skirpt erstellen. In meinem Powershell-Skript gibt es die Variabel sourceDir und destinationDir. Die werden zuvor deklariert und dannach, mit dem ConverTo-Json in die JSON-sprache konventiert. ...SCHAUE CHATGPT....Und werden mit dem Set-Content in die JSON-Datei überschrieben.
-![image](https://github.com/Tagesmeister/Modul-122-Lernbericht/assets/110892258/a4ad0ce9-ceae-4099-80ad-3b9cd583cb5e)
+Die Konfigurationsdatei ist eine `JSON-Datei`.
 
-* Ein deutliches, aussagekräftiges Bild oder eine kommentierte Bildschirm-Aufnahme
-* Ein gut dokumentierter Code-Fetzen
-* Ein Link zu einem *selbst aufgenommenen* youtube-Video oder `.gif`.
+![image](https://github.com/Tagesmeister/Modul-122-Lernbericht/assets/110892258/85c36268-d0d2-4b34-8dca-b0dd8784afe1)
+
+Um in der `JSON-Datei` etwas einfügen oder überschreiben zu können, muss man das was man überschreiben möchte im `Powershell-Skirpt` erstellen. In meinem Powershell-Skript gibt es die Variabel `sourceDir` und `destinationDir`. Die werden zuvor mit den Dateipfaden deklariert und dannach, mit dem `$config = @` in einem Hastable gespeichert.
+
+Hastables sind Datenstrukturen, die zwei Werte, die zueineander stehen (Schlüsselpaare) zusammen abspeichern. Jeder Wert in einem Hastable, besteht aus einem Schlüssel. Mit dem bestimmten gegebenen Schlüssel, kann man auf die Daten zugreifen und verändern. Es ist wichtig zu wissen, dass jeder Eintrag in den Hastable einen eigenen, einzigartigen Schlüssel hat.
+
+In meinem Beispiel, sind die Variablen `$soureceDir und $destinationDir` die Werte und `"sourceDir", "destinationDir"` die jeweiligen Schlüsseln dazu.
+
+Mit dem `ConverTo-Json` werden die eingegebenen Pfaden in die JSON-Sprache konventiert Und danach mit dem `Set-Content` in die JSON-Datei überschrieben.
+
+``` json
+{ 
+  "sourceDir": "C:\\Users\\pasca\\Downloads",
+  "destinationDir": "C:\\Users\\pasca\\OneDrive - BBBaden\\Dokumente\\Montag IT"
+}
+```
+### Resulatat
+Das ist das Resultat von meinem Script
 
 ## Verifikation
 
