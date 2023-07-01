@@ -30,17 +30,16 @@ Mit dem `ConverTo-Json` werden die eingegebenen Pfaden in die JSON-Sprache konve
   "destinationDir": "C:\\Users\\pasca\\OneDrive - BBBaden\\Dokumente\\Montag IT"
 }
 ```
-### Resulatat
-Das ist das Resultat von meinem Script
-
 ## Verifikation
 
-✍️ Erklären Sie kurz und bündig, inwiefern die von Ihnen verwendeten Medien zeigen, was Sie gelernt haben.
+* Der Text beschreibt, wie in dem Script die Configurations-Daten in die `JSON-Datei` überschrieben wird.
+* Das Bild zeigt den ganzen Configurations-Code
+* Der Codeschnipsel zeigt, wie die JSON-Datei aussieht.
 
 # Reflektion zum Arbeitsprozess
 
-👍 Überlegen Sie sich jeweils etwas, was gut an Ihrer Arbeit lief; 
+Ich habe gut und strukturiert gearbeitet. Ich konnte gut mit Problemen unmgehen und fand jedes Mal eine Lösung.
 
-👎 und etwas, was nicht gut lief.
+Was nicht so gut war, war dass ich meine Datei auf OneDrive hatte und als ich an einem anderen Computer gearbeitet habe, ging OneDrive nicht immer reibungslos.
 
-**VBV**: ✍️ Formulieren Sie davon ausgehend einen *handelbaren* Verbesserungsvorschlag.
+**VBV**: Das nächste Mal werde ich meine Arbeit auf OneDrive für ein Backup hochlade und auf einen UBS-Stick laden. Damit ich jedes mal, wenn ich möchte, auf einen anderen Computer arbeiten kann.
