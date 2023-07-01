@@ -33,8 +33,8 @@ Mit dem `ConverTo-Json` werden die eingegebenen Pfade in die JSON-Sprache konven
 ## Verifikation
 
 * Der Text beschreibt, wie in dem Script die Configurations-Daten in die `JSON-Datei` überschrieben wird.
-* Das Bild zeigt den ganzen Configurations-Code
-* Der Codeschnipsel zeigt, wie die JSON-Datei aussieht.
+* Das Bild zeigt den ganzen `Configurations-Code`
+* Der Codeschnipsel zeigt, wie die `JSON-Datei` aussieht.
 
 # Reflexion zum Arbeitsprozess
 
